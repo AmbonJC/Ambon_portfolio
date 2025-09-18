@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">AmbonPortfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/razeagustin0-web" target="_blank">GitHub</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>John Carlo Ambon</span></h1>
+      <p>Student | Programmer | Web Dev </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="https://i.pinimg.com/736x/eb/3b/70/eb3b7045fd722775fa26cf7070037e22.jpg" alt="Your Image">
+      <div class="about-text">
+        <p>
+          I’m a passionate learner eager to deepen my programming skills through hands-on exploration in computer science. As a student developer and a Grade 12 ICT student, I enjoy working on real-world projects, experimenting with new technologies, and building creative solutions to challenging problems. My goal is to continue growing as a developer, enhance my technical expertise, and contribute to innovative projects that make an impact.
+        </p>
+        <a href="https://www.canva.com/design/DAGzS4-WvY8/iypT_rnm6aqB6HKGjwZBbw/view?utm_content=DAGzS4-WvY8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4ae4f6b0e3" class="btn">Download CV</a>
+        <a href="https://github.com/razeagustin0-web" target="_blank" class="btn">Visit My GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://i.pinimg.com/736x/03/b8/39/03b839156a22b479185cb64264325fd7.jpg" alt="Project 1">
+        <h3>Roblox Game</h3>
+        <p>Step into the ultimate creation platform where your imagination becomes reality! Roblox Game Maker (Lua Script Edition) gives you the tools to design, build, and script your very own Roblox games using Lua the official scripting language of Roblox. Whether you’re creating obstacle courses, adventure RPGs, simulators, or anything in between, this game maker provides an intuitive workspace with drag-and-drop building tools combined with powerful Lua scripting.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://i.pinimg.com/736x/19/44/56/1944565fdc69b735d0686beabddfdb1e.jpg" alt="Project 2">
+        <h3>Super Knight</h3>
+        <p>Enter the pixelated kingdom of SuperKnight, an action-packed adventure where you play as a brave knight on a quest to defend the realm! Armed with your sword, shield, and quick reflexes, battle through hordes of monsters, dodge deadly traps, and uncover hidden treasures in beautifully crafted pixel-art levels.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://attotime.com/images/new/time-tracking_en.webp" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>Description of project 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 John Carlo Ambon. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
